@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1800px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 56px;
+    margin-top: 28px;
+}
+
+.header select {
+    width: 113px;
+    height: 36px;
+    background: black;
+    color: white;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.header button {
+    width: 79px;
+    height: 34px;
+    color: white;
+    background: #E50914;
+    border: none;
+    border-radius: 3px;
+    margin-left: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background: #ff0b18
+}
+
+.logo img {
+    width: 167px;
+    height: 45px;
+}
+
+.main {
+    min-height: 748px;
+    width: 100%;
+    background: url(./img/background-netflix.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.container {
+    z-index: 1;
+}
+
+.text h1 {
+    font-size: 64px;
+    max-width: 800px;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.gradient {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);;
+    position: absolute;
+    inset: 0;
+}
+
+form h3 {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    appearance: none;
+    width: 500px;
+    height: 70px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    border-right: 1px solid rgb(124, 124, 124);
+    border-radius: 2px;
+}
+
+form button {
+    height: 70px;
+    width: 211px;
+    background: #E50914;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
+    border-left: 1px solid rgb(90, 90, 90);
+    border-radius: 2px;
+}
+
+form button:hover {
+    background-color: #ff0b18;
+}
+
+hr {
+    width: 100%;
+    background-color: #222222;
+    height: 8px;
+    border: none;
+}
+
+.tv {
+    background-color: black;
+    height: 466px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-left-col {
+    flex-basis: 30%;
+    margin-right: 10px
+}
+
+.tv-left-col h1 {
+    font-size: 50px;
+}
+
+.tv-left-col h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.tv-right-col {
+    position: relative;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+.tv-right-col img {
+    height: 398px;
+    width:  530px;
+    z-index: 1;
+    position: relative;
+}
+
+.tv-right-col video {
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    width: 386px;
+    height: 244px
+}
+
+.offline {
+    height: 462px;
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offline-left-col {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-basis: 505px;
+    margin-right: 100px;
+    padding-bottom: 40px;
+}
+
+.celphone {
+    height: 379px;
+    width: 505px;
+}
+
+.card {
+    position: absolute;
+    top: 250px;
+}
+
+.card-display {
+    width: 331px;
+    height: 104px;
+    background: black;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 12px;
+    display: flex;
+}
+
+.card-display img {
+    position: relative;
+    width: 57px;
+    height: 80px;
+    left: 10px;
+    top: 10px;
+}
+
+.card-display h4 {
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.card-display span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #0071eb;
+}
+
+.gif {
+    width: 60px;
+    height: 60px;
+    background: url(./img/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.offline-right-col {
+    max-width: 547px;
+}
+
+.offline-right-col h1 {
+    font-size: 50px;
+}
+
+.offline-right-col h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.when-u-want {
+    height: 535px;
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.want-left-col {
+    flex-basis: 550px;
+}
+
+.want-left-col h1 {
+    font-size: 50px;
+}
+
+.want-left-col h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.want-right-col {
+    flex-basis: 555px;
+    position: relative;
+}
+
+.want-right-col img{
+    position: relative;
+    width: 555px;
+    height: 417px;
+    z-index: 1
+}
+
+.want-right-col video{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    width: 350px;
+}
+
+.kids {
+    height: 523px;
+    background: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kids-left-col img {
+    height: 379px;
+    width: 505px;
+}
+
+.kids-right-col {
+    flex-basis: 547px;
+    margin-left: 30px;
+}
+
+.kids-right-col h1{
+    font-size: 50px;
+}
+
+.kids-right-col h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.questions {
+    padding: 80px 0;
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.questions h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.question {
+    height: 75px;
+    width: 815px;
+    margin-bottom: 10px;
+    background: #303030;
+    padding: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.question.active {
+    margin-bottom: 1px;
+    
+}
+
+.question.active .line1 {
+    transform: rotate(45deg);
+}
+
+.question.active .line2 {
+    transform: rotate(-45deg);
+}
+
+.answer {
+    margin-bottom: 10px;
+    width: 815px;
+    background: #303030;
+    font-size: 24px;
+    transition: max-height 0.4s;
+    display: none;
+}
+
+.answer.active {
+    display: block;
+    padding: 25px;
+}
+
+.question h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.x div {
+    width: 1px;
+    height: 28px;
+    background: rgb(116, 116, 116);
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    border: 1px inset rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.line2 {
+    transform: rotate(90deg);
+}
+
+.footer {
+    width: 100%;
+    height: 426px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #757575;
+}
+
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-cols {
+    display: flex;
+}
+
+.footer-cols div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.footer select {
+    margin-top: 20px;
+    width: 154px;
+    height: 53px;
+    font-size: 16px;
+    color: #757575;
+    padding-left: 6px;
+    background-color: black;
+    border: 1px solid #4d4d4d;
+    border-radius: 3px;
+}
+
+.footer .net {
+    margin-top: 28px;
+    font-size: 13px;
+}
+
+.footer-cols div span{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer-cols div span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
