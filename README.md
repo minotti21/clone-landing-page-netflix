@@ -13,12 +13,6 @@ HTML, CSS e Javascript
 ![netflix](https://i.imgur.com/L9aNS0s.png)
 
 
-## Rodando localmente
+## Link para o projeto
 
-Clone o projeto
-
-```bash
-  git clone https://link-para-o-projeto
-```
-
-Entre no diretório do projeto e abra o arquivo HTML :)
+https://minotti21.github.io/clone-landing-page-netflix/
